@@ -1,6 +1,7 @@
 CXX       = g++
 CXXFLAGS  = -g -O2 -Wall -c
-LDFLAGS   = -g -O2 -Wall -L/usr/X11R6/lib -lGL -lGLUT
+# LDFLAGS   = -g -O2 -Wall -L/usr/X11R6/lib -lGL -lGLUT
+LDFLAGS   = -g -O2 -Wall -L/Library -framework openGL -framework GLUT
 RM        = rm -f
 EXEC      = minigl
 
